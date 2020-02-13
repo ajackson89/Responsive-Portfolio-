@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body{
+      background-image: url('./Images/email-pattern.png');
+    }
+  </style>
+</head>
+
+<body>
+<!--nav element-->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="col-md-3"></div>
+    <div class="navbar-header">
+      <a class="navbar-brand">Antonio Jackson</a>
+    </div>
+    <div class="col-md-3"></div>
+    <ul class="nav navbar-nav">
+      <li><a href="./index.html">About</a></li>
+      <li><a href="./portfolio.html">Porfolio</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!--content for first page -->
+<div class="container">
+  
+    <div class="content">
+        <H1>Contact</H1>
+          <div class="contact">
+            <form action="action_page.php">
+                <label for="name">Name</label>
+                <input type="text" id="fname" name="name" placeholder="John Smith">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" id="lname" name="email" placeholder="example@gmail.com">
+                <br>
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+                <br>
+            </form>
+          </div>
+      </div>
+    </div>
+ 
+</div>
+
+<!--footer-->
+<div class=container-fluid>
+  <div class="footer">
+  <p>Copyright &copy;</p>
+  </div>
+</div>
+</body>
+</html>
